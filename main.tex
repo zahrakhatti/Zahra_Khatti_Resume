@@ -1,0 +1,180 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\addtolength{\oddsidemargin}{-0.75in}
+\addtolength{\evensidemargin}{-0.75in}
+\addtolength{\textwidth}{1.5in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.5in}
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0.1in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+% Ensure PDF is ATS friendly
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{\vspace{-2pt}\item\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}\textbf{#1} & \textbf{\small #2} \\\textit{\small#3} & \textit{\small #4} \\\end{tabular*}\vspace{-7pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.1in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.1in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Zahra Khatti} \\ \vspace{1pt}
+    11 Duh Drive, Bethlehem, PA 18015 \\ \vspace{1pt}
+    \small  \href{mailto:khatti.zahra@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{khatti.zahra@gmail.com}} ~ 
+    \href{https://linkedin.com/in/zahra-khatti}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/zahra-khatti}} ~
+    \href{https://github.com/zahrakhatti}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/zahrakhatti}}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Summary}
+\small
+Highly motivated and mathematically oriented Ph.D. student in Industrial and Systems Engineering specializing in fairness in machine learning and nonlinear optimization. Experienced in designing fairness-aware prediction models with provable guarantees by formulating constraints on smooth nonconvex surrogates. Strong background in non-convex analysis, optimization theory, and statistical learning. Skilled in implementing advanced algorithms for large-scale constrained optimization and developing neural network models using PyTorch.
+
+%-----------SKILLS-----------
+\section{Skills}
+\begin{multicols}{2}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \item \textbf{Mathematical:} Non-convex analysis, Linear algebra, Optimization
+  \item \textbf{Computational:} Python, PyTorch, Gurobi, AMPL, GAMS, R, Git
+\end{itemize}
+\end{multicols}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Lehigh University}{Aug. 2023 -- Present}
+      {Ph.D. in Industrial and Systems Engineering}{Bethlehem, PA}
+      \resumeItemListStart
+        \resumeItem{Advisors: \href{https://coral.ise.lehigh.edu/frankecurtis}{Prof. Frank E. Curtis}, \href{https://coral.ise.lehigh.edu/danielprobinson}{Prof. Daniel P. Robinson}}
+        \resumeItem{Research Focus: Fairness in machine learning through constraint-based optimization.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Sharif University of Technology}{2019 -- 2022}
+      {Master of Science in Industrial Engineering, Economic and Social Systems}{Tehran, Iran}
+      \resumeItemListStart
+        \resumeItem{Advisor: \href{https://www.ie.sharif.ir/en/-faculty}{Prof. Farhad Kianfar}}
+        \resumeItem{Dissertation: Customer Segmentation and Migration Pattern Modeling Based on Loyalty.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {K.N. Toosi University of Technology}{2015 -- 2019}
+      {Bachelor of Science in Industrial Engineering}{Tehran, Iran}
+  \resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS-----------
+\section{Publications}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \item  \href{https://arxiv.org/abs/2505.15788}{Zahra Khatti, Daniel P Robinson, and Frank E Curtis. Fair supervised learning through constraints on smooth nonconvex unfairness-measure surrogates. arXiv preprint arXiv:2505.15788, 2025.}
+    \resumeItemListStart
+        \resumeItem{Designed fairness-aware neural networks in PyTorch with constraint-based optimization.}
+        \resumeItem{Applied Sequential Quadratic Programming (SQP) for solving large-scale constrained ML problems.}
+        \resumeItem{Conducted mathematical analysis of fairness guarantees.}
+    \resumeItemListEnd
+\end{itemize}
+
+%-----------SELECTED PROJECTS-----------
+\section{Selected Projects}
+%   \resumeSubHeadingListStart
+%     \resumeSubheading
+%       {Review of Uncertainty Quantification for Deep Learning Models}{2023}
+%       {Lehigh University}{Bethlehem, PA}
+%       \resumeItemListStart
+%         \resumeItem{Reviewed and analyzed techniques for uncertainty quantification under limited data conditions.}
+    %   \resumeItemListEnd
+
+    % \resumeSubheading
+    %   {Business Process Simulation Models from Event Logs}{2020}
+    %   {Sharif University of Technology}{Tehran, Iran}
+    %   \resumeItemListStart
+    %     \resumeItem{Developed models for automated discovery of business process simulation models from event logs.}
+    %   \resumeItemListEnd
+
+    \resumeSubheading
+      {Multi-Stage Financial Planning Problem}{2020}
+      {Sharif University of Technology}{Tehran, Iran}
+      \resumeItemListStart
+        \resumeItem{Optimized financial planning using scenario reduction and nested decomposition.}
+      \resumeItemListEnd
+
+    % \resumeSubheading
+    %   {Assessment and Layout Planning of Wagon Generator Industrial Units}{2017}
+    %   {K.N. Toosi University of Technology}{Tehran, Iran}
+    %   \resumeItemListStart
+    %     \resumeItem{Conducted layout planning to improve operational efficiency in industrial units.}
+    %   \resumeItemListEnd
+  % \resumeSubHeadingListEnd
+
+%-----------SELECTED COURSES-----------
+\section{Selected Courses}
+\begin{multicols}{2}
+\small
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \setlength{\itemsep}{0.5pt}
+    \item Statistical Machine Learning
+    \item Continuous Optimization
+    \item Stochastic Processes
+  \end{itemize}
+  \columnbreak
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \setlength{\itemsep}{0.5pt}
+    \item Project Management and Control
+    \item Decision Management and Analysis
+  \end{itemize}
+\end{multicols}
+
+%-----------VOLUNTEER WORK-----------
+\section{Volunteer Work}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {MOPTA Conference Co-chair}{2025 (ongoing)}
+      {Lehigh University}{Bethlehem, PA}
+      \resumeItemListStart
+        \resumeItem{Co-organizing the 2026 MOPTA conference; coordinating speakers, sessions, and logistics.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Graduation Ceremony Organizer}{2019}
+      {K.N. Toosi University of Technology}{Tehran, Iran}
+
+    \resumeSubheading
+      {Executive Board Member}{2016--2017}
+      {Scientific Association, K.N. Toosi University}{Tehran, Iran}
+
+  \resumeSubHeadingListEnd
+\end{document}
